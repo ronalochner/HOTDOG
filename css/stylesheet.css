@@ -1,0 +1,788 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Eric Meyers reset */
+
+/* My own basic stylesheet */ 
+/* this is how you write these fonts 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+/* end fonts */
+
+body {
+	background-color: pink;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 100px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 600;
+	font-size: 36px;
+	letter-spacing: 1px;
+	color: black;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 600;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 400;
+	font-size: 21px;
+	letter-spacing: 1px;
+
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 400;
+	font-size: 16px;
+	kerning: 3px;
+	letter-spacing: 1px;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-kerning: 5px;
+	word-spacing: 1.5px;
+	line-height: 20px;
+}
+
+.p1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	width: 800px;
+	padding-left: 5px;
+	padding-right: 40px;
+}
+
+.p2 {
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 400;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+/* START Content section */
+
+body {
+	background-color: black;
+}
+
+#container {
+	width: 1336px;
+	height: 3700px;
+	background-color: black;
+}
+
+
+
+
+/* Start HEADER */
+
+
+
+
+
+header {
+	width: 1336px;
+	height: 667px;
+	background-color: white;
+}
+
+.sign-up {
+	width: 1336px;
+	height: 92px;
+}
+
+#CTA {
+	width: 1086px,
+	height: 92px;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-right: 125px;
+	margin-left: 255px;
+	align-items: center;
+	display: inline-block;
+
+}
+
+.button {
+	height: 37px;
+	width: 113px;
+	background-color: #666666;
+    border: solid, black, 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: 400;
+    letter-spacing: 2px;
+    }
+
+
+.button:hover { 
+	background-color: #7F7F7F;
+
+}
+
+/* Banner */
+
+
+
+
+.banner {
+	width: 1336px;
+	height: 575px;
+	background-color: black;
+	background-image: url('../images/header1.png') ;
+}
+
+.banner2 {
+	width: 1336px;
+	height: 575px;
+	background-color: black;
+	background-image: url('../images/header2.png') ;
+}
+
+.banner3 {
+	width: 1336px;
+	height: 575px;
+	background-color: black;
+	background-image: url('../images/header3.png') ;
+}
+
+.banner4 {
+	width: 1336px;
+	height: 575px;
+	background-color: black;
+	background-image: url('../images/header4.png') ;
+}
+
+
+}
+
+#logo {
+	width: 285px;
+	height: 210px;
+	float: left;
+	z-index: +1;
+
+}
+
+#nav1 {
+	width: 1336px;
+	height: 210px;
+	font-size: 15px;
+	position: top, right;
+	font-family: 'Montserrat', sans-serif;
+	font-variant: 400;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+ul #nav1 {
+	width:1050px; 
+	height:219px;
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    align-items: center;
+    background-color: black;
+    margin-right: 57px;
+
+}
+
+li {
+	width: 100px;
+	height: 40px;
+	margin-top: 40px;
+	margin-right: 57px;
+	margin-bottom: 120px;
+    float: right;
+    float: center;
+
+}
+
+li a {
+	width: 100px;
+	height: 40px;
+    display: block, center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+
+
+}
+
+li a:hover {
+    background-color: none;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+
+.main-heading {
+	width: 900px;
+	height: 365px;
+	background-color: none;
+	align-items: center;
+	text-align: center;
+	padding-right: 218px;
+	padding-left: 218px;
+}
+
+#sub-header-main {
+	text-align: center, top;
+	margin-bottom: 70px;
+	color: white;
+	line-height: 30px;
+
+}
+
+/* Start of Whats on offer*/
+
+.title-1 {
+	text-align: center;
+	width: 800px;
+	height: 210px;
+	padding-top: 80px;
+	padding-left: 250px;
+	z-index: +1;
+}
+
+#offer1 {
+	color: black;
+}
+
+.icons-1 {
+	width:900px;
+	height: 190px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom:10px;
+	font-size: 150px;
+	text-align: center;
+}
+
+.info-1 {
+	width:900px;
+	height: 210px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: black;
+	line-height: 20px;
+	text-align: left;
+}
+
+.icons-section {
+	width: 1336px;
+	height: 750px;
+	background-color: white;
+}
+
+section.content {
+	width: 1000px;
+	height: auto;
+}
+
+section.one-third {
+	float: left;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	color: #7F7F7F
+	padding: 100px;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.clearfix {
+	clear: both; 
+}
+
+
+
+
+/* Start of FACILITIES */
+
+
+.title-2 {
+	text-align: center;
+	width: 800px;
+	height: 210px;
+	padding-top: 80px;
+	padding-left: 250px;
+	z-index: +1;
+	color: white;
+}
+
+#offer2 {
+	color: white;
+}
+
+.images-2 {
+	width:1336px;
+	height: 400px;
+	padding-bottom: 30px;
+	padding-left: 140px;
+	align-items: center;
+	font-size: 150px;
+	z-index: -1;
+}
+
+.info-2 {
+	width:900px;
+	height: 310px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: white;
+}
+
+
+
+facilities-section {
+	width: 1336px;
+	height: 945px;
+	background-color: white;
+}
+
+section.content2 {
+	width: 1000px;
+	height: auto;
+
+
+
+}
+
+section.one-third2 {
+	float: left;
+	width: 300px;
+	background-color: none;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+
+#black {
+	color: white;
+}
+
+.clearfix {
+	clear: both; 
+}
+
+/* END of FACILITIES */
+
+
+/* start of BENEFITS */
+
+
+/* start of FOOTER */
+
+footer {
+	width: 1336px;
+	height:400px;
+	background-color: white;
+	text-align: center;
+	font-style: none;
+
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+footer a:hover {
+	color: grey;
+}
+
+.nav2 {
+	width: 1336px;
+	height: 138px;
+	background-color: black;
+	background-image: url('../images/footer1.png') ;
+}
+
+.nav3 {
+	width: 1336px;
+	height: 138px;
+	background-color: black;
+	background-image: url('../images/footer2.png') ;
+}
+
+.nav4 {
+	width: 1336px;
+	height: 138px;
+	background-color: black;
+	background-image: url('../images/footer3.png') ;
+}
+.nav5 {
+	width: 1336px;
+	height: 138px;
+	background-color: black;
+	background-image: url('../images/footer4.png') ;
+}
+section.content-footer {
+	width: 900px;
+	height: 40px;
+	padding-top: 45px;
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+section.one-third-footer {
+	float: left;
+	width: 300px;
+	height: 183px;
+	color: white;
+	box-sizing: border-box;
+
+
+}
+
+.clearfix {
+	clear: both; 
+}
+
+
+.get-in-touch {
+	width: 1336px;
+	height: 138px;
+	background-color: black;
+	background-image: url('../images/footer1.png') ;
+}
+
+
+/* FOOTER BANNER */
+
+.get-in-touch-div {
+	width: 1336px;
+	height: 214px;
+	background-color: black;
+	color: white;
+	margin-top: 23px;
+	float: center;
+
+}
+
+section.content-footer-contact {
+	height: 318px;
+}
+
+section.one-third-footer-social {
+	float: right;
+	width: 318px;
+	height: 214px;
+	color: white;
+	box-sizing: border-box;
+	float: right;
+	letter-spacing: 20px;
+	padding-top: 5px;
+
+
+}
+
+section.one-third-footer-contact-mid {
+	height: 214px;
+	width: 700px;
+	color: white;
+	align-items: center;
+	float: left;
+}
+
+section.one-third-footer-maps {
+	float: left;
+	width: 310px;
+	height: 214px;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+}
+
+
+.clearfix {
+	clear: both; 
+}
+
+
+
+/* END Content section */
+
+
+
+
+
+/* INFO PAGE */
+
+#equiptment {
+	align-items: center;
+	padding-left: 200px;
+	padding-bottom: 170px;
+	padding-right: 20px;
+
+}
+
+/* FACILITIES */
+
+
+.images-3 {
+	width:1336px;
+	height: 400px;
+	padding-bottom: 30px;
+	padding-left: 140px;
+	align-items: center;
+	font-size: 150px;
+	z-index: -1;
+
+}
+
+
+section.one-third3 {
+	float: left;
+	width: 300px;
+	background-color: none;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+#echo {
+	padding-left: 30px;
+}
+
+
+
+/* RATES PAGE */
+
+
+#classes {
+	width: 1336px;
+	height: 30px;
+	margin-left: 200px;
+}
+
+
+#classes-heading {
+	height: 30px;
+	width: 60px;
+	margin-left: 200px;
+	float: left;
+
+}
+
+#extras-heading {
+	height: 30px;
+	width: 60px;
+	margin-left: 330px;
+	float: left;
+
+}
+
+.item {
+	width: 200px;
+	line-height: 30px;
+}
+
+
+
+#classes-heading2 {
+	height: 30px;
+	width: 400px;
+	margin-left: 400px;
+	float: left;
+
+}
+
+#extras-heading2 {
+	font-family: Verdana, sans-serif;
+	height: 30px;
+	width: 300px;
+	float: left;
+	line-height: 30px;
+}
+
+
+/* BANKING */
+
+#banking {
+	height: 500px;
+	width: 1336px;
+}
+
+
+
+div .title-3 {
+	text-align: center;
+	width: 800px;
+	height: 210px;
+	padding-top: 20px;
+	padding-left: 250px;
+	z-index: +1;
+	color: white;
+	line-height: 30px;
+
+}
+
+
+/* CONTACT PAGE */
+
+.form-section5 {
+	width: 1336px;
+	height: 1100px;
+	background-color: black;
+	align-items: left;
+
+}
+
+
+#form {
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 180px;
+
+}
+
+input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #666666;
+}
+
+#country {
+	width: 100px;
+
+}
+
+#field1 {
+	width: 500px;
+	height: 300px;
+}
+
+#submit-form {
+		margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
